@@ -1,0 +1,43 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+//============================================ Backgrounds
+
+.bg-primary{
+    background-color: $primary !important;
+}
+
+//============================================ Buttons
+
+.btn-primary{
+    background-color: $primary;
+    border-color: $primary;
+}
+
+//============================================
+
+.card-header,
+.list-group-item-primary{
+    @extend .bg-primary;
+}
+
+a{
+    color: $primary;;
+}
+
+.list-group-item-primary{
+    a{
+        color: white;
+    }
+}
+
+#cardLocale{
+    z-index: 1;
+}
